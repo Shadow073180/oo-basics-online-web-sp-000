@@ -19,4 +19,4 @@ end
 
 
 
-shoe("Nike") = Shoe.new
+Shoe.new("Nike")
