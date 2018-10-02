@@ -15,6 +15,7 @@ class Shoe
     puts "Your shoe is as good as new!"
     if shoe.condition != "new"
       shoe.condition = "new"
+    end
   end
 end
 
