@@ -13,13 +13,10 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    self.shoe.condition="new"
+    shoe.condition="new"
   end
-
-
-
-
-
-
-
 end
+
+
+
+shoe("Nike") = Shoe.new
